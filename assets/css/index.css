@@ -1,0 +1,101 @@
+#destaque .container{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 122px 239px 89px;
+}
+
+@media (max-width: 1350px)
+{
+    #destaque .container{
+    
+    padding: 122px 180px 89px;
+}
+
+}
+
+@media (max-width: 1300px)
+{
+    #destaque .container{
+    
+    padding: 122px 160px 89px;
+}
+
+}
+
+@media (max-width: 1250px)
+{
+    #destaque .container{
+    
+    padding: 122px 110px 89px;
+}
+
+}
+
+@media (max-width: 1120px)
+{
+    #destaque .container{
+    
+    padding: 122px 65px 89px;
+}
+
+}
+
+@media (max-width: 1120px)
+{
+    #destaque .container{
+    
+    padding: 122px 40px 89px;
+}
+
+}
+
+@media (max-width: 1000px)
+{
+    #destaque .container{
+    
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+}
+
+#destaque .container img{
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 660px)
+{
+    #destaque .container img{
+        width: 202; 
+        height: 202;
+    }
+    }
+    
+
+
+#destaque .container div{
+    display:flex;
+    flex-direction: column;
+}
+
+#destaque .container div h1 {
+
+font-weight: 700;
+font-size: 47px;
+line-height: 54px;
+
+color: #009688;
+max-width: 512px;
+margin-bottom: 40px;
+}
+
+#destaque .container div span{
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+max-width: 461px;
+}
